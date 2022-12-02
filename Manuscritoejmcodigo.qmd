@@ -1,6 +1,6 @@
 ---
 title: "GitHub"
-author: "Flavio Lozano-Isla"
+author: "Favio Jara-Marquez"
 format:
   html:
     toc: true
@@ -53,7 +53,7 @@ open # open file or directory
 ```{bash}
 #| eval: false
 
-ssh-keygen -t rsa -C "flozano@lamolina.edu.pe" 
+ssh-keygen -t rsa -C fanny.marquez@uniq.edu.pe 
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -99,3 +99,23 @@ git pull
 ```
 
 
+```{r}
+```
+
+
+
+
+```{git}
+
+#| eval: false
+
+git init
+git add .
+git commit -m "first commit2"
+git branch -M main
+git remote add origin git@github.com:FannyMarquez/famarquezhome.git
+git push -u origin main
+```
+
+
+Mi primera página web

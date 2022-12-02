@@ -1,0 +1,13 @@
+---
+  title: "GitHub"
+author: "Favio Jara-Marquez"
+format:
+  html:
+  toc: true
+toc-location: left
+number-sections: true
+self-contained: true
+output-file: "index"
+editor_options: 
+  chunk_output_type: console
+execute: 
